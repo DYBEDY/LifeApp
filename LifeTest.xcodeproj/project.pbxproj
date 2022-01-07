@@ -15,6 +15,7 @@
 		063BC2E02788976200FD5003 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 063BC2DE2788976200FD5003 /* LaunchScreen.storyboard */; };
 		063BC2EC278897E900FD5003 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063BC2EB278897E900FD5003 /* LoginViewController.swift */; };
 		063BC2EE278897FF00FD5003 /* LivedDaysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063BC2ED278897FF00FD5003 /* LivedDaysViewController.swift */; };
+		063BC2F02788A1EE00FD5003 /* LivedDays.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 063BC2EF2788A1EE00FD5003 /* LivedDays.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		063BC2E12788976200FD5003 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		063BC2EB278897E900FD5003 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		063BC2ED278897FF00FD5003 /* LivedDaysViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivedDaysViewController.swift; sourceTree = "<group>"; };
+		063BC2EF2788A1EE00FD5003 /* LivedDays.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LivedDays.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			children = (
 				063BC2D92788976100FD5003 /* Main.storyboard */,
 				063BC2DE2788976200FD5003 /* LaunchScreen.storyboard */,
+				063BC2EF2788A1EE00FD5003 /* LivedDays.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				063BC2F02788A1EE00FD5003 /* LivedDays.storyboard in Resources */,
 				063BC2E02788976200FD5003 /* LaunchScreen.storyboard in Resources */,
 				063BC2DD2788976200FD5003 /* Assets.xcassets in Resources */,
 				063BC2DB2788976100FD5003 /* Main.storyboard in Resources */,

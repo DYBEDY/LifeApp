@@ -8,11 +8,15 @@
 import UIKit
 
 class InformationAboutDevelopersViewController: UIViewController {
+    
+    //MARK: - IBOutlets
+    @IBOutlet weak var developerImage: UIImageView!
+    @IBOutlet weak var youLivedLabel: UILabel!
+    @IBOutlet weak var dateOfBirthLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
     }
     
 

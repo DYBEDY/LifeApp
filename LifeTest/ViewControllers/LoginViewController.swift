@@ -45,12 +45,12 @@ class LoginViewController: UIViewController {
     }
     
     
-//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//        guard let demoVC = segue.destination as? DemoViewController else { return }
-//        demoVC.birthday = birthdayDate
-//        demoVC.finish = finishDate
-//        
-//    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let demoVC = segue.destination as? TabBarViewController else { return }
+        demoVC.birthday = birthdayDate
+        demoVC.finish = finishDate
+        
+    }
     
     @IBAction func nextButtonPressed() {
         getSecondScreen()
@@ -64,7 +64,7 @@ class LoginViewController: UIViewController {
         if finishText.isEmpty {
             showAlert(tittle: "Something went wrong", message: "Input correct information")
         } else {
-            performSegue(withIdentifier: "demo2", sender: nil)
+            performSegue(withIdentifier: "login", sender: nil)
         }
     }
     

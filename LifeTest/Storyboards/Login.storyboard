@@ -51,12 +51,12 @@
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Имя" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dT0-8C-tvc">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Фамилия" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pQZ-J3-Zpk">
                                         <rect key="frame" x="0.0" y="59" width="374" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no"/>
                                     </textField>
                                 </subviews>
                             </stackView>
@@ -115,16 +115,25 @@
                         <outlet property="startButton" destination="pNn-wm-29c" id="TmM-QO-N8F"/>
                         <outlet property="stepLabel" destination="1gE-Gm-qJ6" id="I1c-IP-bGs"/>
                         <outlet property="surnameTextField" destination="pQZ-J3-Zpk" id="z8d-Wg-rPs"/>
+                        <segue destination="gAq-EL-ZX7" kind="presentation" identifier="login" id="ZaG-fJ-BTB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="955.07246376811599" y="83.705357142857139"/>
         </scene>
+        <!--0-->
+        <scene sceneID="XwE-Ux-hoq">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Main" referencedIdentifier="0" id="gAq-EL-ZX7" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DJ9-3W-yaZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1525" y="84"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="82h-BT-wD0">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="e1f-NX-jAA" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="e1f-NX-jAA" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="uBq-Nt-nx4">
                         <rect key="frame" x="0.0" y="44" width="414" height="96"/>

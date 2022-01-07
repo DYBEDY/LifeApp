@@ -71,6 +71,20 @@
             </objects>
             <point key="canvasLocation" x="608" y="84"/>
         </scene>
+        <!--Tab Bar View Controller-->
+        <scene sceneID="1fr-mG-K36">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="o84-Uz-Nlf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tabBarController storyboardIdentifier="0" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Jnr-89-Sbh" customClass="TabBarViewController" customModule="LifeTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="u0C-3U-4C5">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                </tabBarController>
+            </objects>
+            <point key="canvasLocation" x="1101" y="84"/>
+        </scene>
     </scenes>
     <resources>
         <systemColor name="systemBackgroundColor">

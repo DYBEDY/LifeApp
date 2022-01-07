@@ -18,6 +18,7 @@
 		063BC2F02788A1EE00FD5003 /* LivedDays.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 063BC2EF2788A1EE00FD5003 /* LivedDays.storyboard */; };
 		063BC2F22788A89D00FD5003 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063BC2F12788A89D00FD5003 /* LoginModel.swift */; };
 		063BC2F52788AE9300FD5003 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 063BC2F42788AE9300FD5003 /* Login.storyboard */; };
+		06DCA70A2788B69300EA507D /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DCA7092788B69300EA507D /* TabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		063BC2EF2788A1EE00FD5003 /* LivedDays.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LivedDays.storyboard; sourceTree = "<group>"; };
 		063BC2F12788A89D00FD5003 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
 		063BC2F42788AE9300FD5003 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		06DCA7092788B69300EA507D /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				063BC2D72788976100FD5003 /* StartViewController.swift */,
+				06DCA7092788B69300EA507D /* TabBarViewController.swift */,
 				063BC2EB278897E900FD5003 /* LoginViewController.swift */,
 				063BC2ED278897FF00FD5003 /* LivedDaysViewController.swift */,
 			);
@@ -199,6 +202,7 @@
 				063BC2F22788A89D00FD5003 /* LoginModel.swift in Sources */,
 				063BC2D82788976100FD5003 /* StartViewController.swift in Sources */,
 				063BC2D42788976100FD5003 /* AppDelegate.swift in Sources */,
+				06DCA70A2788B69300EA507D /* TabBarViewController.swift in Sources */,
 				063BC2D62788976100FD5003 /* SceneDelegate.swift in Sources */,
 				063BC2EE278897FF00FD5003 /* LivedDaysViewController.swift in Sources */,
 			);

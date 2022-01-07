@@ -20,7 +20,7 @@
 		063BC2F52788AE9300FD5003 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 063BC2F42788AE9300FD5003 /* Login.storyboard */; };
 		06DCA70A2788B69300EA507D /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DCA7092788B69300EA507D /* TabBarViewController.swift */; };
 		06DCA7102788BD3900EA507D /* AplicationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DCA70F2788BD3900EA507D /* AplicationViewController.swift */; };
-		06DCA7122788BD5400EA507D /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DCA7112788BD5400EA507D /* InformationViewController.swift */; };
+		06DCA7122788BD5400EA507D /* InformationAboutDevelopersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DCA7112788BD5400EA507D /* InformationAboutDevelopersViewController.swift */; };
 		06DCA7142788BD6E00EA507D /* Developer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DCA7132788BD6E00EA507D /* Developer.swift */; };
 		06DCA7162788BFEF00EA507D /* DevelopersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DCA7152788BFEF00EA507D /* DevelopersTableViewController.swift */; };
 /* End PBXBuildFile section */
@@ -41,7 +41,7 @@
 		063BC2F42788AE9300FD5003 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		06DCA7092788B69300EA507D /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		06DCA70F2788BD3900EA507D /* AplicationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AplicationViewController.swift; sourceTree = "<group>"; };
-		06DCA7112788BD5400EA507D /* InformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
+		06DCA7112788BD5400EA507D /* InformationAboutDevelopersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationAboutDevelopersViewController.swift; sourceTree = "<group>"; };
 		06DCA7132788BD6E00EA507D /* Developer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Developer.swift; sourceTree = "<group>"; };
 		06DCA7152788BFEF00EA507D /* DevelopersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevelopersTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -104,7 +104,7 @@
 				063BC2ED278897FF00FD5003 /* LivedDaysViewController.swift */,
 				06DCA7152788BFEF00EA507D /* DevelopersTableViewController.swift */,
 				06DCA70F2788BD3900EA507D /* AplicationViewController.swift */,
-				06DCA7112788BD5400EA507D /* InformationViewController.swift */,
+				06DCA7112788BD5400EA507D /* InformationAboutDevelopersViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -220,7 +220,7 @@
 				063BC2D62788976100FD5003 /* SceneDelegate.swift in Sources */,
 				063BC2EE278897FF00FD5003 /* LivedDaysViewController.swift in Sources */,
 				06DCA7142788BD6E00EA507D /* Developer.swift in Sources */,
-				06DCA7122788BD5400EA507D /* InformationViewController.swift in Sources */,
+				06DCA7122788BD5400EA507D /* InformationAboutDevelopersViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

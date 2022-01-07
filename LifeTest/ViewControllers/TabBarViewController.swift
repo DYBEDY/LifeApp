@@ -13,10 +13,19 @@ class TabBarViewController: UITabBarController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        chooseController()
         
     }
     
+    private func chooseController() {
+            guard let viewControllers = self.viewControllers else { return }
+            for controller in viewControllers {
+                if let livedDaysVC = controller as? LivedDaysViewController {
+                    livedDaysVC.birthDate = birthday.text
+                }
+            
 
    
+}
+    }
 }

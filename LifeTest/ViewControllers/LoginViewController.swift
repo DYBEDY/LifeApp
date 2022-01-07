@@ -46,9 +46,9 @@ class LoginViewController: UIViewController {
     
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        guard let demoVC = segue.destination as? TabBarViewController else { return }
-        demoVC.birthday = birthdayDate
-        demoVC.finish = finishDate
+        guard let tabBarVC = segue.destination as? TabBarViewController else { return }
+        tabBarVC.birthday = birthdayDate
+        tabBarVC.finish = finishDate
         
     }
     

@@ -71,19 +71,32 @@
             </objects>
             <point key="canvasLocation" x="608" y="84"/>
         </scene>
-        <!--Tab Bar View Controller-->
-        <scene sceneID="1fr-mG-K36">
+        <!--LivedDays-->
+        <scene sceneID="bPx-wP-XXZ">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="o84-Uz-Nlf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <tabBarController storyboardIdentifier="0" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Jnr-89-Sbh" customClass="TabBarViewController" customModule="LifeTest" customModuleProvider="target" sceneMemberID="viewController">
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="u0C-3U-4C5">
+                <viewControllerPlaceholder storyboardName="LivedDays" id="qY9-YR-w0B" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="nvf-en-w5m"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UfG-x3-xgC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1775" y="-88"/>
+        </scene>
+        <!--Tab Bar View Controller-->
+        <scene sceneID="Iau-iU-m3S">
+            <objects>
+                <tabBarController storyboardIdentifier="TabBarViewController" modalPresentationStyle="fullScreen" id="noq-Zo-TNt" customClass="TabBarViewController" customModule="LifeTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="cBE-YX-Ha3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
+                    <connections>
+                        <segue destination="qY9-YR-w0B" kind="relationship" relationship="viewControllers" id="V8O-ld-Mpj"/>
+                    </connections>
                 </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6NG-Sr-npd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1101" y="84"/>
+            <point key="canvasLocation" x="1109" y="84"/>
         </scene>
     </scenes>
     <resources>

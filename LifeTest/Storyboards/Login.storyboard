@@ -18,6 +18,8 @@
                         <subviews>
                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="D3y-dS-Erb">
                                 <rect key="frame" x="0.0" y="140" width="414" height="4"/>
+                                <color key="progressTintColor" red="0.1273454939" green="0.28485322899999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="trackTintColor" red="0.69209507530000003" green="0.72367623910000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </progressView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1gE-Gm-qJ6">
                                 <rect key="frame" x="30" y="174" width="354" height="20.5"/>
@@ -30,21 +32,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pNn-wm-29c">
-                                <rect key="frame" x="167" y="771" width="80" height="31"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="31" id="ePS-Sm-h8l"/>
-                                    <constraint firstAttribute="width" constant="80" id="kiD-FA-D0C"/>
-                                </constraints>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="НАЧАТЬ">
-                                    <color key="baseForegroundColor" red="0.69209507530000003" green="0.72367623910000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <color key="baseBackgroundColor" red="0.1174039229" green="0.0" blue="0.57392177450000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="startButtonPressed" destination="Y6W-OH-hqX" eventType="touchUpInside" id="UUx-dR-J26"/>
-                                </connections>
-                            </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="75o-UI-iSc">
                                 <rect key="frame" x="20" y="254.5" width="374" height="93"/>
                                 <subviews>
@@ -80,6 +67,21 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BbZ-NA-Oz5">
+                                <rect key="frame" x="167" y="771" width="80" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="80" id="DqP-L1-bNd"/>
+                                    <constraint firstAttribute="height" constant="31" id="cDl-05-CIs"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="НАЧАТЬ">
+                                    <color key="baseForegroundColor" red="0.69209507530000003" green="0.72367623910000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="baseBackgroundColor" red="0.1174039229" green="0.0" blue="0.57392177450000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="startButtonPressed" destination="Y6W-OH-hqX" eventType="touchUpInside" id="I04-wd-NNL"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -88,6 +90,7 @@
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="5aq-1j-WNn" secondAttribute="trailing" constant="20" id="2G0-Gq-0tz"/>
                             <constraint firstItem="5aq-1j-WNn" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="2mg-aD-5kL"/>
                             <constraint firstItem="75o-UI-iSc" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="2qu-ur-UUs"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="BbZ-NA-Oz5" secondAttribute="bottom" constant="60" id="4Pg-K0-VYg"/>
                             <constraint firstItem="5aq-1j-WNn" firstAttribute="top" secondItem="1gE-Gm-qJ6" secondAttribute="bottom" constant="60" id="5k4-4K-5IA"/>
                             <constraint firstItem="1gE-Gm-qJ6" firstAttribute="top" secondItem="D3y-dS-Erb" secondAttribute="bottom" constant="30" id="7VV-0G-gT3"/>
                             <constraint firstItem="1jj-GW-9eE" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="9Pn-Sw-Sh2"/>
@@ -95,12 +98,11 @@
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="D3y-dS-Erb" secondAttribute="trailing" id="MCL-6y-xl6"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="75o-UI-iSc" secondAttribute="trailing" constant="20" id="MtO-DU-aGt"/>
                             <constraint firstItem="1jj-GW-9eE" firstAttribute="top" secondItem="1gE-Gm-qJ6" secondAttribute="bottom" constant="60" id="MwM-xo-kPe"/>
-                            <constraint firstItem="pNn-wm-29c" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="Njs-qJ-FDc"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="1gE-Gm-qJ6" secondAttribute="trailing" constant="30" id="Rmh-sg-sg0"/>
                             <constraint firstItem="D3y-dS-Erb" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="SPw-oB-h5w"/>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="pNn-wm-29c" secondAttribute="bottom" constant="60" id="ToY-NC-QgC"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="Sj3-SP-EE5" secondAttribute="bottom" constant="60" id="UNw-yr-BC6"/>
                             <constraint firstItem="Sj3-SP-EE5" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="Wbf-A2-rB5"/>
+                            <constraint firstItem="BbZ-NA-Oz5" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="WeZ-hn-8i7"/>
                             <constraint firstItem="1gE-Gm-qJ6" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="30" id="jWs-5j-fA3"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="1jj-GW-9eE" secondAttribute="trailing" constant="20" id="p51-7F-UZH"/>
                         </constraints>
@@ -112,20 +114,22 @@
                         <outlet property="nameTextField" destination="dT0-8C-tvc" id="P1a-Ea-cZA"/>
                         <outlet property="nextButton" destination="Sj3-SP-EE5" id="Pu1-bS-SiI"/>
                         <outlet property="progressView" destination="D3y-dS-Erb" id="s6R-w2-g1h"/>
-                        <outlet property="startButton" destination="pNn-wm-29c" id="TmM-QO-N8F"/>
+                        <outlet property="startButton" destination="BbZ-NA-Oz5" id="ueK-Uj-clp"/>
                         <outlet property="stepLabel" destination="1gE-Gm-qJ6" id="I1c-IP-bGs"/>
                         <outlet property="surnameTextField" destination="pQZ-J3-Zpk" id="z8d-Wg-rPs"/>
-                        <segue destination="gAq-EL-ZX7" kind="presentation" identifier="login" id="ZaG-fJ-BTB"/>
+                        <segue destination="gAq-EL-ZX7" kind="presentation" identifier="login" id="kW4-ag-vVp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="955.07246376811599" y="83.705357142857139"/>
         </scene>
-        <!--0-->
+        <!--TabBarViewController-->
         <scene sceneID="XwE-Ux-hoq">
             <objects>
-                <viewControllerPlaceholder storyboardName="Main" referencedIdentifier="0" id="gAq-EL-ZX7" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardName="Main" referencedIdentifier="TabBarViewController" id="gAq-EL-ZX7" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="p68-2J-jmB"/>
+                </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DJ9-3W-yaZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1525" y="84"/>

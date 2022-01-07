@@ -12,7 +12,7 @@ class LivedDaysViewController: UIViewController {
     @IBOutlet var todayLabel: UILabel!
     @IBOutlet var passedDaysLabel: UILabel!
     
-    var birthDate = "07.03.2001"
+    var birthDate: String!
     
     override func viewDidLoad() {
         super.viewDidLoad()

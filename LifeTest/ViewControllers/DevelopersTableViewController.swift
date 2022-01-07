@@ -8,6 +8,7 @@
 import UIKit
 
 class DevelopersTableViewController: UITableViewController {
+    
     //MARK: - Private properties
     private var developerList = Developer.getDeveloperList()
 
@@ -35,7 +36,6 @@ class DevelopersTableViewController: UITableViewController {
         cell.contentConfiguration = content
         return cell
     }
-
     
     // MARK: - Navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

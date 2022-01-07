@@ -17,7 +17,6 @@ class DevelopersTableViewController: UITableViewController {
     }
 
     // MARK: - Table view data source
-
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         developerList.count
     }
@@ -37,14 +36,10 @@ class DevelopersTableViewController: UITableViewController {
         return cell
     }
 
-    /*
+    
     // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        guard let informationAboutTheDeveloperVC = segue.destination as? InformationAboutDevelopersViewController else { return }
+        informationAboutTheDeveloperVC.developer = sender as? Developer
     }
-    */
-
 }

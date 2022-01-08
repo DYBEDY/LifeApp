@@ -19,7 +19,9 @@ class InformationAboutTheDeveloperViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        developerImage.layer.cornerRadius = 20
+        developerImage.image = UIImage(named: developer.title)
+        dateOfBirthLabel.text = developer.dateOfBirth
         
     }
     

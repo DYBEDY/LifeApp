@@ -13,6 +13,9 @@ class InformationAboutTheDeveloperViewController: UIViewController {
     @IBOutlet weak var developerImage: UIImageView!
     @IBOutlet weak var youLivedLabel: UILabel!
     @IBOutlet weak var dateOfBirthLabel: UILabel!
+    
+    //MARK: - Public properties
+    var developer: Developer!
 
     override func viewDidLoad() {
         super.viewDidLoad()

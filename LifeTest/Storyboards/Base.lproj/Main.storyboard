@@ -119,11 +119,11 @@
         <scene sceneID="Iau-iU-m3S">
             <objects>
                 <tabBarController storyboardIdentifier="TabBarViewController" modalPresentationStyle="fullScreen" id="noq-Zo-TNt" customClass="TabBarViewController" customModule="LifeTest" customModuleProvider="target" sceneMemberID="viewController">
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="cBE-YX-Ha3">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" itemPositioning="fill" id="cBE-YX-Ha3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="tintColor" red="1" green="0.99794950429999996" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="barTintColor" red="1" green="0.99794950429999996" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" red="0.1979075662" green="0.14214818009999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="selectedImageTintColor" red="0.1979075662" green="0.14214818009999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="qY9-YR-w0B" kind="relationship" relationship="viewControllers" id="XoF-Kk-ZfY"/>

@@ -46,7 +46,7 @@
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
-                        <color key="backgroundColor" red="0.022455423530000001" green="0.0" blue="0.34547413939999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.0082400410721849421" green="0.0" blue="0.1267720955569728" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="rUk-IN-OFU" secondAttribute="trailing" constant="20" id="hvE-Gi-mS4"/>
                             <constraint firstItem="rUk-IN-OFU" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="hyF-DH-NfA"/>
@@ -56,8 +56,8 @@
                     <tabBarItem key="tabBarItem" title="Future" id="EFo-lk-bjW">
                         <imageReference key="image" image="sunset.fill" catalog="system" symbolScale="large" renderingMode="hierarchical">
                             <hierarchicalColors>
-                                <color red="0.79030541659999998" green="0.85555280190000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color red="0.79030541659999998" green="0.85555280190000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color red="0.1979075662" green="0.14214818009999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color red="0.1979075662" green="0.14214818009999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color red="1" green="0.99794950429999996" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </hierarchicalColors>
                         </imageReference>

@@ -45,7 +45,7 @@
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
-                        <color key="backgroundColor" red="0.022455423531653095" green="0.0" blue="0.34547413936277638" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.0082400410719999997" green="0.0" blue="0.1267720956" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="9Ao-S4-Vym" secondAttribute="trailing" constant="50" id="QSt-hI-llB"/>
                             <constraint firstItem="9Ao-S4-Vym" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leading" constant="50" id="Qb0-bF-AsA"/>
@@ -55,8 +55,8 @@
                     <tabBarItem key="tabBarItem" title="Past" id="KZN-fK-F6Q">
                         <imageReference key="image" image="sunrise" catalog="system" symbolScale="large" renderingMode="hierarchical">
                             <hierarchicalColors>
-                                <color red="1" green="0.99794950425029072" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color red="1" green="0.99794950429999996" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color red="0.1979075662" green="0.14214818009999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color red="0.1979075662" green="0.14214818009999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color red="1" green="0.99794950429999996" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </hierarchicalColors>
                         </imageReference>

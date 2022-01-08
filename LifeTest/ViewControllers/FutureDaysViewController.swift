@@ -9,21 +9,19 @@ import UIKit
 
 class FutureDaysViewController: UIViewController {
 
+    @IBOutlet var todayLabel: UILabel!
+    @IBOutlet var futureDaysLabel: UILabel!
+    
+    var delegate: DaysViewControllerDelegate!
+    var deathDate: String!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        todayLabel.text = "Сегодня\n \(delegate?.getCurrentDate() ?? "")"
+        
+        futureDaysLabel.layer.cornerRadius = 15
+        futureDaysLabel.layer.masksToBounds = true
+        futureDaysLabel.text = "\n У тебя осталось \n \(delegate?.dateInterval(beginDate: delegate?.getCurrentDate() ?? "", endDate: deathDate) ?? "")\n"
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

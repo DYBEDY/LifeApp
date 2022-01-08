@@ -24,18 +24,18 @@ class TabBarViewController: UITabBarController {
     }
     
     private func chooseController() {
-            guard let viewControllers = self.viewControllers else {return}
-            viewControllers.forEach {
-                if let livedDaysVC = $0 as? LivedDaysViewController {
-                    livedDaysVC.delegate = self
-                    livedDaysVC.birthDate = birthday.text
-                }
-//                else if let futureDaysVC = $0 as? FutureDaysViewController {
-//                    futureDaysVC.delegate = self
-//                    print("FutureDaysVC")
-//                }
+        guard let viewControllers = self.viewControllers else {return}
+        viewControllers.forEach {
+            if let livedDaysVC = $0 as? LivedDaysViewController {
+                livedDaysVC.delegate = self
+                livedDaysVC.birthDate = birthday.text
             }
+            else if let futureDaysVC = $0 as? FutureDaysViewController {
+                futureDaysVC.delegate = self
+                futureDaysVC.deathDate = finish.text
             }
+        }
+    }
 }
 
 

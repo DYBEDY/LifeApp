@@ -6,14 +6,16 @@
 //
 
 import UIKit
+import AVFoundation
 
 class StartViewController: UIViewController {
-
-    override func viewDidLoad() {
+    
+override func viewDidLoad() {
         super.viewDidLoad()
         installBackgrounColor()
+         playVideo()
     }
-    
+
     private func installBackgrounColor() {
         let gradientLayer = CAGradientLayer()
         gradientLayer.frame = view.bounds
@@ -23,5 +25,5 @@ class StartViewController: UIViewController {
         ]
         view.layer.insertSublayer(gradientLayer, at: 0)
     }
+  
 }
-

@@ -8,23 +8,32 @@
 import UIKit
 
 class DevelopersViewController: UITableViewController {
+    
+    //MARK: - Private properties
+    private var developerList = Developer.getDeveloperList()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        tableView.rowHeight = 100
     }
 
     // MARK: - Table view data source
-
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        0
+        developerList.count
     }
 
-    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
 
-
+        let developer = developerList[indexPath.row]
+        
+        var content = cell.defaultContentConfiguration()
+        content.text = developer.fullName
+        content.secondaryText = developer.work
+        content.image = UIImage(named: developer.title)
+        content.imageProperties.cornerRadius = tableView.rowHeight / 2
+        
+        cell.contentConfiguration = content
         return cell
     }
     

@@ -25,7 +25,27 @@ class InformationAboutTheDeveloperViewController: UIViewController {
         
     }
     
-
+    //MARK: - Private methods
+    private func getCurrentDate() -> String {
+        let currentDate = DateFormatter()
+        currentDate.dateFormat = "dd.MM.yyyy"
+        
+        return currentDate.string(from: Date())
+    }
     
-
+    private func dateInterval(beginDate: String, endDate: String) -> String {
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "dd.MM.yyyy"
+        
+        guard let begin = dateFormatter.date(from: beginDate) else { return "" }
+        guard let end = dateFormatter.date(from: endDate) else { return "" }
+        
+        let dateInterval = Calendar.current.dateComponents([.day], from: begin, to: end)
+        
+        guard let days = dateInterval.day else {return ""}
+        
+        let resultDateInterval = " \(days) days"
+        
+        return resultDateInterval
+    }
 }

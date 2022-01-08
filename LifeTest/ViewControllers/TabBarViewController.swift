@@ -33,6 +33,9 @@ class TabBarViewController: UITabBarController {
             else if let futureDaysVC = $0 as? FutureDaysViewController {
                 futureDaysVC.delegate = self
                 futureDaysVC.deathDate = finish.text
+            } else if let navigationInformationAboutTheDeveloperVC = $0 as? UINavigationController {
+                let informationAboutTheDeveloperVC = navigationInformationAboutTheDeveloperVC.topViewController as! InformationAboutTheDeveloperViewController
+                informationAboutTheDeveloperVC.delegate = self
             }
         }
     }

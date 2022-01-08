@@ -22,7 +22,7 @@ class InformationAboutTheDeveloperViewController: UIViewController {
         developerImage.layer.cornerRadius = 20
         developerImage.image = UIImage(named: developer.title)
         dateOfBirthLabel.text = developer.dateOfBirth
-        
+        youLivedLabel.text = dateInterval(beginDate: developer.dateOfBirth, endDate: getCurrentDate())
     }
     
     //MARK: - Private methods

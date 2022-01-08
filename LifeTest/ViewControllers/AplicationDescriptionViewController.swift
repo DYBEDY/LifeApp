@@ -17,6 +17,5 @@ class AplicationDescriptionViewController: UIViewController {
         informationLabel.text = """
 In this application you can find out how long you have lived and how much you still want to live
 """
-        
     }
 }

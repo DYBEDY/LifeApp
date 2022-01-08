@@ -37,8 +37,11 @@ class DevelopersViewController: UITableViewController {
         return cell
     }
     
-
-    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        let developer = developerList[indexPath.row]
+        performSegue(withIdentifier: "showDetails", sender: developer)
+    }
     
     // MARK: - Navigation
 
@@ -46,6 +49,4 @@ class DevelopersViewController: UITableViewController {
         guard let informationAboutTheDeveloperVC = segue.destination as? InformationAboutTheDeveloperViewController else { return }
         informationAboutTheDeveloperVC.developer = sender as? Developer
     }
-    
-
 }

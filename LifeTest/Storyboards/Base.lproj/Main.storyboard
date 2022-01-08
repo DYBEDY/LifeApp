@@ -93,19 +93,41 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UfG-x3-xgC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1775" y="-88"/>
+            <point key="canvasLocation" x="1643" y="-80"/>
+        </scene>
+        <!--FutureDays-->
+        <scene sceneID="bOz-85-SW2">
+            <objects>
+                <viewControllerPlaceholder storyboardName="FutureDays" id="Vdm-gG-x2W" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="hWT-KH-6ao"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CSm-Vw-tWF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1649" y="84"/>
+        </scene>
+        <!--OurTeam-->
+        <scene sceneID="EjW-g0-xJ2">
+            <objects>
+                <viewControllerPlaceholder storyboardName="OurTeam" id="bJM-gz-PN8" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="qcg-Vb-XVf"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WLa-3I-1fp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1638" y="240"/>
         </scene>
         <!--Tab Bar View Controller-->
         <scene sceneID="Iau-iU-m3S">
             <objects>
                 <tabBarController storyboardIdentifier="TabBarViewController" modalPresentationStyle="fullScreen" id="noq-Zo-TNt" customClass="TabBarViewController" customModule="LifeTest" customModuleProvider="target" sceneMemberID="viewController">
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="cBE-YX-Ha3">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" backgroundImage="square.and.arrow.up" catalog="system" itemPositioning="centered" id="cBE-YX-Ha3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="qY9-YR-w0B" kind="relationship" relationship="viewControllers" id="V8O-ld-Mpj"/>
+                        <segue destination="qY9-YR-w0B" kind="relationship" relationship="viewControllers" id="XoF-Kk-ZfY"/>
+                        <segue destination="Vdm-gG-x2W" kind="relationship" relationship="viewControllers" id="jFw-DI-qmw"/>
+                        <segue destination="bJM-gz-PN8" kind="relationship" relationship="viewControllers" id="Ih0-6m-mcb"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6NG-Sr-npd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -114,6 +136,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="square.and.arrow.up" catalog="system" width="115" height="128"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

@@ -20,7 +20,7 @@ class TabBarViewController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         chooseController()
-        
+        installBackgrounColor()
     }
     
     private func chooseController() {
@@ -39,6 +39,16 @@ class TabBarViewController: UITabBarController {
             }
         }
     }
+    
+        private func installBackgrounColor() {
+            let gradientLayer = CAGradientLayer()
+            gradientLayer.frame = view.bounds
+            gradientLayer.colors = [
+                UIColor.white.cgColor,
+                UIColor.systemIndigo.cgColor
+            ]
+            view.layer.insertSublayer(gradientLayer, at: 0)
+        }
 }
 
 

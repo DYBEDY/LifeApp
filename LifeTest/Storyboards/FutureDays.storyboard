@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
-    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -8,37 +8,36 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Future Days View Controller-->
+        <!--Future-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController id="Y6W-OH-hqX" customClass="FutureDaysViewController" customModule="LifeTest" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="Y6W-OH-hqX" customClass="FutureDaysViewController" customModule="LifeTest" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc" customClass="fu">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="rUk-IN-OFU">
-                                <rect key="frame" x="80" y="53" width="215" height="247"/>
+                                <rect key="frame" x="20" y="147" width="350" height="194.33333333333337"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="today" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A9K-SW-XjB">
-                                        <rect key="frame" x="0.0" y="0.0" width="215" height="23"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="350" height="23"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Осталось" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eCo-rr-Vur">
-                                        <rect key="frame" x="0.0" y="63" width="215" height="23"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Осталось" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eCo-rr-Vur">
+                                        <rect key="frame" x="0.0" y="63" width="350" height="23"/>
                                         <color key="backgroundColor" red="0.50286891251763588" green="0.51206796941956823" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" Век человеческий краток. Подумай, что ещё ты хочешь успеть?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ilv-yu-oDW">
-                                        <rect key="frame" x="0.0" y="126" width="215" height="121"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="215" id="NCK-vy-2nu"/>
-                                            <constraint firstAttribute="height" constant="121" id="ddz-M2-rDq"/>
-                                        </constraints>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ilv-yu-oDW">
+                                        <rect key="frame" x="0.0" y="126" width="350" height="68.333333333333314"/>
+                                        <string key="text"> Век человеческий краток.
+ Подумай, что ещё 
+ты хочешь успеть?</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                         <color key="textColor" red="0.50286891249999999" green="0.51206796939999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
@@ -49,12 +48,13 @@
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="rUk-IN-OFU" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="53" id="BHN-NN-qvK"/>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="rUk-IN-OFU" secondAttribute="trailing" constant="80" id="GsK-E0-MZ8"/>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="rUk-IN-OFU" secondAttribute="bottom" constant="367" id="IUJ-bl-vW3"/>
-                            <constraint firstItem="rUk-IN-OFU" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="80" id="SqB-oh-pb5"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="rUk-IN-OFU" secondAttribute="trailing" constant="20" id="hvE-Gi-mS4"/>
+                            <constraint firstItem="rUk-IN-OFU" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="hyF-DH-NfA"/>
+                            <constraint firstItem="rUk-IN-OFU" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="103" id="okQ-9X-SbZ"/>
                         </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Future" id="EFo-lk-bjW"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="futureDaysLabel" destination="eCo-rr-Vur" id="jzj-4h-WtC"/>
                         <outlet property="todayLabel" destination="A9K-SW-XjB" id="Wcs-Vg-3kh"/>

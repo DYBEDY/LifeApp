@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Lived Days View Controller-->
+        <!--Past-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="Y6W-OH-hqX" customClass="LivedDaysViewController" customModule="LifeTest" customModuleProvider="target" sceneMemberID="viewController">
@@ -51,6 +51,8 @@
                             <constraint firstItem="9Ao-S4-Vym" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="50" id="uMb-yV-XWv"/>
                         </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Past" id="KZN-fK-F6Q"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="passedDaysLabel" destination="9oR-bz-Wpu" id="yHD-8o-tKO"/>
                         <outlet property="todayLabel" destination="mXQ-KF-Nmg" id="Egm-eP-7GE"/>

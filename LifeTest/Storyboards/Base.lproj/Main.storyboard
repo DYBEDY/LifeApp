@@ -28,8 +28,8 @@
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="НАЧАТЬ">
-                                    <color key="baseForegroundColor" red="0.69209507530000003" green="0.72367623910000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <color key="baseBackgroundColor" red="0.1174039229" green="0.0" blue="0.57392177450000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="baseForegroundColor" red="0.0070975925990000004" green="0.0" blue="0.38070107800000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="baseBackgroundColor" red="0.7902500905147215" green="1" blue="0.89085941529781909" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="o26-nu-USg" kind="presentation" id="O5s-Ow-Fiu"/>
@@ -38,7 +38,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Yours Life" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="irZ-2G-kwk">
                                 <rect key="frame" x="20" y="44" width="374" height="26.5"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
-                                <color key="textColor" red="0.1174039229" green="0.0" blue="0.57392177450000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.69209507530000003" green="0.72367623910000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rsu-PE-vMj">
@@ -93,19 +93,41 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UfG-x3-xgC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1775" y="-88"/>
+            <point key="canvasLocation" x="1643" y="-80"/>
+        </scene>
+        <!--FutureDays-->
+        <scene sceneID="bOz-85-SW2">
+            <objects>
+                <viewControllerPlaceholder storyboardName="FutureDays" id="Vdm-gG-x2W" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="hWT-KH-6ao"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CSm-Vw-tWF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1649" y="84"/>
+        </scene>
+        <!--OurTeam-->
+        <scene sceneID="EjW-g0-xJ2">
+            <objects>
+                <viewControllerPlaceholder storyboardName="OurTeam" id="bJM-gz-PN8" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="qcg-Vb-XVf"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WLa-3I-1fp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1638" y="240"/>
         </scene>
         <!--Tab Bar View Controller-->
         <scene sceneID="Iau-iU-m3S">
             <objects>
                 <tabBarController storyboardIdentifier="TabBarViewController" modalPresentationStyle="fullScreen" id="noq-Zo-TNt" customClass="TabBarViewController" customModule="LifeTest" customModuleProvider="target" sceneMemberID="viewController">
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="cBE-YX-Ha3">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" backgroundImage="square.and.arrow.up" catalog="system" itemPositioning="centered" id="cBE-YX-Ha3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="qY9-YR-w0B" kind="relationship" relationship="viewControllers" id="V8O-ld-Mpj"/>
+                        <segue destination="qY9-YR-w0B" kind="relationship" relationship="viewControllers" id="XoF-Kk-ZfY"/>
+                        <segue destination="Vdm-gG-x2W" kind="relationship" relationship="viewControllers" id="jFw-DI-qmw"/>
+                        <segue destination="bJM-gz-PN8" kind="relationship" relationship="viewControllers" id="Ih0-6m-mcb"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6NG-Sr-npd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -114,6 +136,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="square.and.arrow.up" catalog="system" width="115" height="128"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

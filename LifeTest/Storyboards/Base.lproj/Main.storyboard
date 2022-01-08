@@ -16,6 +16,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jPZ-Og-msS">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GRd-Qv-i6h">
                                 <rect key="frame" x="167" y="771" width="80" height="31"/>
                                 <constraints>
@@ -41,16 +45,20 @@
                                 <rect key="frame" x="30" y="120.5" width="354" height="101.5"/>
                                 <string key="text">Yours Life поможет тебе понять ценность каждого отведенного тебе дня. Ставь себе цели и достигай их, двигайся только вперед, цени каждый день и тебя обязательно настигнит успех!</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.69209507530000003" green="0.72367623910000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="jPZ-Og-msS" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="5By-Cv-owV"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Rsu-PE-vMj" secondAttribute="trailing" constant="30" id="8BU-B8-eVs"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="GRd-Qv-i6h" secondAttribute="bottom" constant="60" id="Czi-Yf-D3K"/>
                             <constraint firstItem="irZ-2G-kwk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="FJW-5d-o15"/>
+                            <constraint firstAttribute="bottom" secondItem="jPZ-Og-msS" secondAttribute="bottom" id="Gdu-cU-atJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jPZ-Og-msS" secondAttribute="trailing" id="P1Z-Lm-uHg"/>
+                            <constraint firstItem="jPZ-Og-msS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="WJK-n5-0e4"/>
                             <constraint firstItem="GRd-Qv-i6h" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Y7s-OE-oCF"/>
                             <constraint firstItem="Rsu-PE-vMj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="kDU-rm-AzK"/>
                             <constraint firstItem="Rsu-PE-vMj" firstAttribute="top" secondItem="irZ-2G-kwk" secondAttribute="bottom" constant="50" id="r8t-49-ckd"/>
@@ -58,6 +66,12 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="irZ-2G-kwk" secondAttribute="trailing" constant="20" id="zFt-Tc-cTI"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="presentationLabel" destination="Rsu-PE-vMj" id="DuH-Lt-R36"/>
+                        <outlet property="startButton" destination="GRd-Qv-i6h" id="MlL-T0-tLE"/>
+                        <outlet property="titleLabel" destination="irZ-2G-kwk" id="NUW-e0-t3O"/>
+                        <outlet property="videoLayer" destination="jPZ-Og-msS" id="0OF-xj-Ncz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

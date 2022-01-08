@@ -17,6 +17,7 @@ class LivedDaysViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+       
         
         todayLabel.text = "Сегодня\n \(delegate?.getCurrentDate() ?? "")"
         
@@ -24,4 +25,5 @@ class LivedDaysViewController: UIViewController {
         passedDaysLabel.layer.masksToBounds = true
         passedDaysLabel.text = "\n Ты прожил уже \n\(delegate?.dateInterval(beginDate: birthDate, endDate: delegate?.getCurrentDate() ?? "") ?? "")\n"
     }
+   
 }

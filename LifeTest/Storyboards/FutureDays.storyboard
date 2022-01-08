@@ -3,8 +3,8 @@
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -46,14 +46,22 @@
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.022455423530000001" green="0.0" blue="0.34547413939999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="rUk-IN-OFU" secondAttribute="trailing" constant="20" id="hvE-Gi-mS4"/>
                             <constraint firstItem="rUk-IN-OFU" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="hyF-DH-NfA"/>
                             <constraint firstItem="rUk-IN-OFU" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="103" id="okQ-9X-SbZ"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Future" id="EFo-lk-bjW"/>
+                    <tabBarItem key="tabBarItem" title="Future" id="EFo-lk-bjW">
+                        <imageReference key="image" image="sunset.fill" catalog="system" symbolScale="large" renderingMode="hierarchical">
+                            <hierarchicalColors>
+                                <color red="0.79030541659999998" green="0.85555280190000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color red="0.79030541659999998" green="0.85555280190000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color red="1" green="0.99794950429999996" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </hierarchicalColors>
+                        </imageReference>
+                    </tabBarItem>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="futureDaysLabel" destination="eCo-rr-Vur" id="jzj-4h-WtC"/>
@@ -66,8 +74,6 @@
         </scene>
     </scenes>
     <resources>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
+        <image name="sunset.fill" catalog="system" width="128" height="97"/>
     </resources>
 </document>

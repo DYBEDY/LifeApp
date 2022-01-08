@@ -3,6 +3,7 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -15,7 +16,7 @@
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="AgT-wm-E4u">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.022455423530000001" green="0.0" blue="0.34547413939999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="developer" id="ri0-Q6-I65">
                                 <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
@@ -86,7 +87,15 @@
         <scene sceneID="9qu-Cn-hTQ">
             <objects>
                 <navigationController id="F7j-TS-xSe" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Our Team" id="MQc-HO-Y1U"/>
+                    <tabBarItem key="tabBarItem" title="Our Team" id="MQc-HO-Y1U">
+                        <imageReference key="image" image="person.3.fill" catalog="system" symbolScale="large" renderingMode="hierarchical">
+                            <hierarchicalColors>
+                                <color red="0.0" green="0.08282720935" blue="0.96102593869999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color red="0.58966500420000001" green="0.71734253000000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color red="1" green="0.99794950429999996" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </hierarchicalColors>
+                        </imageReference>
+                    </tabBarItem>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Wl6-ew-Orf">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -207,6 +216,7 @@
     </scenes>
     <resources>
         <image name="info.circle" catalog="system" width="128" height="121"/>
+        <image name="person.3.fill" catalog="system" width="128" height="61"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

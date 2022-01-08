@@ -20,7 +20,6 @@ class TabBarViewController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         chooseController()
-        installBackgrounColor()
     }
     
     private func chooseController() {

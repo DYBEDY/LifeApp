@@ -20,6 +20,7 @@
 		063BC2F52788AE9300FD5003 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 063BC2F42788AE9300FD5003 /* Login.storyboard */; };
 		067302F12789D98E009DCDC0 /* OurTeam.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 067302F02789D98E009DCDC0 /* OurTeam.storyboard */; };
 		067302F32789D9C9009DCDC0 /* FutureDaysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067302F22789D9C9009DCDC0 /* FutureDaysViewController.swift */; };
+		067302F92789E577009DCDC0 /* FutureDays.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 067302F82789E577009DCDC0 /* FutureDays.storyboard */; };
 		06DCA70A2788B69300EA507D /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DCA7092788B69300EA507D /* TabBarViewController.swift */; };
 		06DCA7102788BD3900EA507D /* AplicationDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DCA70F2788BD3900EA507D /* AplicationDescriptionViewController.swift */; };
 		06DCA7122788BD5400EA507D /* InformationAboutTheDeveloperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DCA7112788BD5400EA507D /* InformationAboutTheDeveloperViewController.swift */; };
@@ -43,6 +44,7 @@
 		063BC2F42788AE9300FD5003 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		067302F02789D98E009DCDC0 /* OurTeam.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OurTeam.storyboard; sourceTree = "<group>"; };
 		067302F22789D9C9009DCDC0 /* FutureDaysViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutureDaysViewController.swift; sourceTree = "<group>"; };
+		067302F82789E577009DCDC0 /* FutureDays.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FutureDays.storyboard; sourceTree = "<group>"; };
 		06DCA7092788B69300EA507D /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		06DCA70F2788BD3900EA507D /* AplicationDescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AplicationDescriptionViewController.swift; sourceTree = "<group>"; };
 		06DCA7112788BD5400EA507D /* InformationAboutTheDeveloperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationAboutTheDeveloperViewController.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				063BC2D92788976100FD5003 /* Main.storyboard */,
 				063BC2F42788AE9300FD5003 /* Login.storyboard */,
 				063BC2EF2788A1EE00FD5003 /* LivedDays.storyboard */,
+				067302F82789E577009DCDC0 /* FutureDays.storyboard */,
 				067302F02789D98E009DCDC0 /* OurTeam.storyboard */,
 			);
 			path = Storyboards;
@@ -205,6 +208,7 @@
 				063BC2E02788976200FD5003 /* LaunchScreen.storyboard in Resources */,
 				067302F12789D98E009DCDC0 /* OurTeam.storyboard in Resources */,
 				063BC2DD2788976200FD5003 /* Assets.xcassets in Resources */,
+				067302F92789E577009DCDC0 /* FutureDays.storyboard in Resources */,
 				063BC2F52788AE9300FD5003 /* Login.storyboard in Resources */,
 				063BC2DB2788976100FD5003 /* Main.storyboard in Resources */,
 			);

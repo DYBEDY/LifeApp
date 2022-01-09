@@ -24,7 +24,7 @@
                                 <color key="textColor" red="0.79025009049999995" green="1" blue="0.89085941530000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="highlightedColor" systemColor="secondarySystemBackgroundColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Думаю, ты успел многое сделать за это время. Узнай сколько тебе осталось, чтобы осуществить свои мечты." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JTs-hD-c7T">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Думаю, ты успел(а) многое сделать за это время. Узнай сколько тебе осталось, чтобы осуществить свои мечты." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JTs-hD-c7T">
                                 <rect key="frame" x="20" y="444" width="374" height="68.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <color key="textColor" name="AccentColor"/>

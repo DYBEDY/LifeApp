@@ -63,12 +63,12 @@
                                     <constraint firstAttribute="width" constant="270" id="7lF-o7-voP"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.79025009049999995" green="1" blue="0.89085941530000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="jJO-YX-hrh"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.0082400410719999997" green="0.0" blue="0.1267720956" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="l3S-5U-SPr" firstAttribute="centerY" secondItem="Sem-LP-7JV" secondAttribute="centerY" id="Hhd-08-nQ2"/>
                             <constraint firstItem="l3S-5U-SPr" firstAttribute="centerX" secondItem="Sem-LP-7JV" secondAttribute="centerX" id="koU-KP-1f2"/>

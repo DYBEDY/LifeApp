@@ -18,38 +18,40 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="88" translatesAutoresizingMaskIntoConstraints="NO" id="9Ao-S4-Vym">
-                                <rect key="frame" x="50" y="94" width="314" height="326"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="dd.mm.yyyy" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mXQ-KF-Nmg">
-                                        <rect key="frame" x="95.5" y="0.0" width="123.5" height="27.5"/>
-                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="23"/>
-                                        <color key="textColor" name="AccentColor"/>
-                                        <color key="highlightedColor" systemColor="secondarySystemBackgroundColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ты прожил уже" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9oR-bz-Wpu">
-                                        <rect key="frame" x="66.5" y="115.5" width="181" height="31.5"/>
-                                        <color key="backgroundColor" name="AccentColor"/>
-                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="26"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Думаю, ты успел многое сделать за это время. Узнай сколько тебе осталось, чтобы осуществить свои мечты." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JTs-hD-c7T">
-                                        <rect key="frame" x="0.0" y="235" width="314" height="91"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                        <color key="textColor" name="AccentColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="dd.mm.yyyy" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mXQ-KF-Nmg">
+                                <rect key="frame" x="20" y="60" width="374" height="27.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="23"/>
+                                <color key="textColor" red="0.79025009049999995" green="1" blue="0.89085941530000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" systemColor="secondarySystemBackgroundColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Думаю, ты успел многое сделать за это время. Узнай сколько тебе осталось, чтобы осуществить свои мечты." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JTs-hD-c7T">
+                                <rect key="frame" x="20" y="414" width="374" height="68.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" name="AccentColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ты прожил уже" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9oR-bz-Wpu">
+                                <rect key="frame" x="50" y="147.5" width="314" height="31.5"/>
+                                <color key="backgroundColor" red="0.58966500420000001" green="0.71734253000000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" red="0.0082400410719999997" green="0.0" blue="0.1267720956" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="9Ao-S4-Vym" secondAttribute="trailing" constant="50" id="QSt-hI-llB"/>
-                            <constraint firstItem="9Ao-S4-Vym" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leading" constant="50" id="Qb0-bF-AsA"/>
-                            <constraint firstItem="9Ao-S4-Vym" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="50" id="uMb-yV-XWv"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="JTs-hD-c7T" secondAttribute="trailing" constant="20" id="52R-1u-0ep"/>
+                            <constraint firstItem="JTs-hD-c7T" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="8w8-AT-J0B"/>
+                            <constraint firstItem="9oR-bz-Wpu" firstAttribute="top" secondItem="mXQ-KF-Nmg" secondAttribute="bottom" constant="60" id="BsN-rc-7NY"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="9oR-bz-Wpu" secondAttribute="trailing" constant="50" id="NO2-xb-9Gd"/>
+                            <constraint firstItem="mXQ-KF-Nmg" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="T0T-jS-jWj"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="mXQ-KF-Nmg" secondAttribute="trailing" constant="20" id="ZGO-Qg-ZWd"/>
+                            <constraint firstItem="mXQ-KF-Nmg" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="16" id="hhh-b1-mEy"/>
+                            <constraint firstItem="JTs-hD-c7T" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="lkS-gW-Qam"/>
+                            <constraint firstItem="9oR-bz-Wpu" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="50" id="ni1-Su-Px0"/>
+                            <constraint firstItem="JTs-hD-c7T" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="yze-Zi-rGb"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Past" id="KZN-fK-F6Q">

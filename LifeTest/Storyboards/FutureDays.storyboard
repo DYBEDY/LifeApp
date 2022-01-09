@@ -16,41 +16,43 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="rUk-IN-OFU">
-                                <rect key="frame" x="20" y="147" width="350" height="194.33333333333337"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="today" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A9K-SW-XjB">
-                                        <rect key="frame" x="0.0" y="0.0" width="350" height="23"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Осталось" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eCo-rr-Vur">
-                                        <rect key="frame" x="0.0" y="63" width="350" height="23"/>
-                                        <color key="backgroundColor" red="0.50286891251763588" green="0.51206796941956823" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ilv-yu-oDW">
-                                        <rect key="frame" x="0.0" y="126" width="350" height="68.333333333333314"/>
-                                        <string key="text"> Век человеческий краток.
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="today" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A9K-SW-XjB">
+                                <rect key="frame" x="20" y="59.999999999999993" width="350" height="27.666666666666664"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="23"/>
+                                <color key="textColor" red="0.79025009049999995" green="1" blue="0.89085941530000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Осталось" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eCo-rr-Vur">
+                                <rect key="frame" x="50" y="147.66666666666666" width="290" height="31.333333333333343"/>
+                                <color key="backgroundColor" red="0.50286891251763588" green="0.51206796941956823" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ilv-yu-oDW">
+                                <rect key="frame" x="20" y="388" width="350" height="68.333333333333314"/>
+                                <string key="text"> Век человеческий краток.
  Подумай, что ещё 
 ты хочешь успеть?</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                        <color key="textColor" red="0.50286891249999999" green="0.51206796939999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                            </stackView>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" red="0.50286891249999999" green="0.51206796939999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" red="0.0082400410721849421" green="0.0" blue="0.1267720955569728" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="rUk-IN-OFU" secondAttribute="trailing" constant="20" id="hvE-Gi-mS4"/>
-                            <constraint firstItem="rUk-IN-OFU" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="hyF-DH-NfA"/>
-                            <constraint firstItem="rUk-IN-OFU" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="103" id="okQ-9X-SbZ"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="A9K-SW-XjB" secondAttribute="trailing" constant="20" id="B8u-Lj-dwP"/>
+                            <constraint firstItem="Ilv-yu-oDW" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="Fgo-eF-c2T"/>
+                            <constraint firstItem="Ilv-yu-oDW" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="N1D-Oo-lWp"/>
+                            <constraint firstItem="A9K-SW-XjB" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="16" id="Sw9-0X-LfQ"/>
+                            <constraint firstItem="eCo-rr-Vur" firstAttribute="top" secondItem="A9K-SW-XjB" secondAttribute="bottom" constant="60" id="UYM-qn-jny"/>
+                            <constraint firstItem="eCo-rr-Vur" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="50" id="ZZx-TU-o8Z"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="Ilv-yu-oDW" secondAttribute="trailing" constant="20" id="avF-AA-Eyq"/>
+                            <constraint firstItem="Ilv-yu-oDW" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="coU-vQ-6Wa"/>
+                            <constraint firstItem="A9K-SW-XjB" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="ize-ec-MIS"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="eCo-rr-Vur" secondAttribute="trailing" constant="50" id="kZd-It-mvl"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Future" id="EFo-lk-bjW">

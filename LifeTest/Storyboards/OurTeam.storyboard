@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Developers-->
+        <!--Разработчики-->
         <scene sceneID="7Ag-1P-9PC">
             <objects>
                 <tableViewController id="11t-6J-L6n" customClass="DevelopersViewController" customModule="LifeTest" customModuleProvider="target" sceneMemberID="viewController">
@@ -32,7 +32,7 @@
                             <outlet property="delegate" destination="11t-6J-L6n" id="GfS-h9-Z5j"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Developers" id="zhW-Sr-kSL">
+                    <navigationItem key="navigationItem" title="Разработчики" id="zhW-Sr-kSL">
                         <barButtonItem key="rightBarButtonItem" title="Item" image="info.circle" catalog="system" id="KVb-8c-DTE">
                             <connections>
                                 <segue destination="pmU-J2-dHH" kind="presentation" id="Vup-cF-tzM"/>
@@ -48,7 +48,7 @@
             </objects>
             <point key="canvasLocation" x="196" y="86"/>
         </scene>
-        <!--Application Description-->
+        <!--Описание приложения-->
         <scene sceneID="M25-DS-GsQ">
             <objects>
                 <viewController id="N27-e7-qUA" customClass="AplicationDescriptionViewController" customModule="LifeTest" customModuleProvider="target" sceneMemberID="viewController">
@@ -74,7 +74,7 @@
                             <constraint firstItem="l3S-5U-SPr" firstAttribute="centerX" secondItem="Sem-LP-7JV" secondAttribute="centerX" id="koU-KP-1f2"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Application Description" id="kof-eA-8Mb"/>
+                    <navigationItem key="navigationItem" title="Описание приложения" id="kof-eA-8Mb"/>
                     <connections>
                         <outlet property="informationLabel" destination="l3S-5U-SPr" id="MC3-Wd-Me3"/>
                     </connections>
@@ -129,7 +129,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You lived" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F7k-hM-ynN">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ты прожил" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F7k-hM-ynN">
                                 <rect key="frame" x="25" y="377" width="364" height="24"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
                                 <nil key="textColor"/>
@@ -144,7 +144,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Why IOS developer?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="55U-N4-WmJ">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Почему IOS разработчик?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="55U-N4-WmJ">
                                 <rect key="frame" x="25" y="481" width="364" height="24"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
                                 <nil key="textColor"/>

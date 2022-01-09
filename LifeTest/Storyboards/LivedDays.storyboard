@@ -25,14 +25,14 @@
                                 <color key="highlightedColor" systemColor="secondarySystemBackgroundColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Думаю, ты успел многое сделать за это время. Узнай сколько тебе осталось, чтобы осуществить свои мечты." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JTs-hD-c7T">
-                                <rect key="frame" x="20" y="414" width="374" height="68.5"/>
+                                <rect key="frame" x="20" y="444" width="374" height="68.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <color key="textColor" name="AccentColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ты прожил уже" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9oR-bz-Wpu">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ты прожил(а) уже" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9oR-bz-Wpu">
                                 <rect key="frame" x="50" y="147.5" width="314" height="31.5"/>
-                                <color key="backgroundColor" red="0.58966500420000001" green="0.71734253000000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.0" green="0.4967100357" blue="0.96102593869999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -43,7 +43,7 @@
                         <color key="backgroundColor" red="0.0082400410719999997" green="0.0" blue="0.1267720956" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="JTs-hD-c7T" secondAttribute="trailing" constant="20" id="52R-1u-0ep"/>
-                            <constraint firstItem="JTs-hD-c7T" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="8w8-AT-J0B"/>
+                            <constraint firstItem="JTs-hD-c7T" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" constant="30" id="8w8-AT-J0B"/>
                             <constraint firstItem="9oR-bz-Wpu" firstAttribute="top" secondItem="mXQ-KF-Nmg" secondAttribute="bottom" constant="60" id="BsN-rc-7NY"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="9oR-bz-Wpu" secondAttribute="trailing" constant="50" id="NO2-xb-9Gd"/>
                             <constraint firstItem="mXQ-KF-Nmg" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="T0T-jS-jWj"/>

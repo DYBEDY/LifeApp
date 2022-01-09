@@ -24,14 +24,14 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Осталось" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eCo-rr-Vur">
                                 <rect key="frame" x="50" y="147.66666666666666" width="290" height="31.333333333333343"/>
-                                <color key="backgroundColor" red="0.50286891251763588" green="0.51206796941956823" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" red="0.0" green="0.4967100357" blue="0.96102593869999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ilv-yu-oDW">
-                                <rect key="frame" x="20" y="388" width="350" height="68.333333333333314"/>
+                                <rect key="frame" x="20" y="418" width="350" height="68.333333333333314"/>
                                 <string key="text"> Век человеческий краток.
  Подумай, что ещё 
 ты хочешь успеть?</string>
@@ -45,7 +45,7 @@
                         <constraints>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="A9K-SW-XjB" secondAttribute="trailing" constant="20" id="B8u-Lj-dwP"/>
                             <constraint firstItem="Ilv-yu-oDW" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="Fgo-eF-c2T"/>
-                            <constraint firstItem="Ilv-yu-oDW" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="N1D-Oo-lWp"/>
+                            <constraint firstItem="Ilv-yu-oDW" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" constant="30" id="N1D-Oo-lWp"/>
                             <constraint firstItem="A9K-SW-XjB" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="16" id="Sw9-0X-LfQ"/>
                             <constraint firstItem="eCo-rr-Vur" firstAttribute="top" secondItem="A9K-SW-XjB" secondAttribute="bottom" constant="60" id="UYM-qn-jny"/>
                             <constraint firstItem="eCo-rr-Vur" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="50" id="ZZx-TU-o8Z"/>

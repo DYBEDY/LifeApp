@@ -23,7 +23,7 @@ class LivedDaysViewController: UIViewController {
         
         passedDaysLabel.layer.cornerRadius = 15
         passedDaysLabel.layer.masksToBounds = true
-        passedDaysLabel.text = "\n Ты прожил уже \n\(delegate?.dateInterval(beginDate: birthDate, endDate: delegate?.getCurrentDate() ?? "") ?? "")\n"
+        passedDaysLabel.text = "\n Ты прожил(а) уже \n\(delegate?.dateInterval(beginDate: birthDate, endDate: delegate?.getCurrentDate() ?? "") ?? "")\n"
     }
    
 }

@@ -46,7 +46,7 @@ class InformationAboutTheDeveloperViewController: UIViewController {
         
         guard let days = dateInterval.day else {return ""}
         
-        let resultDateInterval = " \(days) days"
+        let resultDateInterval = " \(days) дни"
         
         return resultDateInterval
     }

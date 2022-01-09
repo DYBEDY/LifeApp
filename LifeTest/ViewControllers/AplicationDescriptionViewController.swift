@@ -15,7 +15,13 @@ class AplicationDescriptionViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         informationLabel.text = """
-In this application you can find out how long you have lived and how much you still want to live
+Yours Life - твой личный помощник в жизни.
+Отслеживай прожитые тобой дни, смотри, сколько тебе осталось, ставь цели
+и достигай их. Цель приложения - показать человеку,
+что он не вечен и его час когда-нибудь прийдёт.
+Осозновая это, ты сможешь более продуктивно распоряжаться своим временем и начнёшь ценить каждый отведённый тебе час.
+Мы искренне верим, что наше приложение поможет тебе в планировании твоей будущей жизни. Будь счастлив, иди только 
+вперёд и никогда не стой на месте, ведь ты обречён на успех!
 """
     }
 }

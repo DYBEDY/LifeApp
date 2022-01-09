@@ -13,17 +13,17 @@ class InformationAboutTheDeveloperViewController: UIViewController {
     @IBOutlet weak var developerImage: UIImageView!
     @IBOutlet weak var youLivedLabel: UILabel!
     @IBOutlet weak var dateOfBirthLabel: UILabel!
-    @IBOutlet weak var whyIOSDeveloperLabel: UILabel!
+    @IBOutlet weak var whyIOSDeveloper: UITextView!
     
     //MARK: - Public properties
     var developer: Developer!
-    var delegate: DaysViewControllerDelegate!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         developerImage.layer.cornerRadius = 20
         developerImage.image = UIImage(named: developer.title)
         dateOfBirthLabel.text = developer.dateOfBirth
+        whyIOSDeveloper.text = developer.whyIOSDeveloper
         youLivedLabel.text = dateInterval(beginDate: developer.dateOfBirth, endDate: getCurrentDate())
     }
     

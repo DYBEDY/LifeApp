@@ -25,6 +25,7 @@ class InformationAboutTheDeveloperViewController: UIViewController {
         dateOfBirthLabel.text = developer.dateOfBirth
         whyIOSDeveloper.text = developer.whyIOSDeveloper
         youLivedLabel.text = dateInterval(beginDate: developer.dateOfBirth, endDate: getCurrentDate())
+        
     }
     
     //MARK: - Private methods

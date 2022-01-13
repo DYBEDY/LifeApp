@@ -261,8 +261,8 @@ extension LoginViewController: UITextFieldDelegate {
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        view.endEditing(true)
         super.touchesBegan(touches , with:event)
+        view.endEditing(true)
     }
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
@@ -277,13 +277,6 @@ extension LoginViewController: UITextFieldDelegate {
         guard let newValue = textField.text else { return }
         if let _ = Float(newValue) {
             showAlert(tittle: "Something went wrong", message: "Input correct information")
-            nameTextField.text = ""
-            surnameTextField.text = ""
-        }
-        if let _ = Int(newValue) {
-            showAlert(tittle: "Something went wrong", message: "Input correct information")
-            nameTextField.text = ""
-            surnameTextField.text = ""
         }
     }
 }
@@ -292,7 +285,10 @@ extension LoginViewController: UITextFieldDelegate {
 extension LoginViewController {
     private func showAlert(tittle: String, message: String) {
         let alert = UIAlertController(title: tittle, message: message, preferredStyle: .alert)
-        let alertAction = UIAlertAction(title: "OK", style: .default)
+        let alertAction = UIAlertAction(title: "OK", style: .default) {_ in
+            self.nameTextField.text = ""
+            self.surnameTextField.text = ""
+        }
         
         alert.addAction(alertAction)
         present(alert, animated: true)
